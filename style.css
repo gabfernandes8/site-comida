@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Anton', sans-serif;
+}
+
+header{
+    display: flex;
+    height: 125px;
+    padding-left: 133px;
+    padding-right: 118px;
+}
+
+.logo{
+    padding-top: 44px;
+    padding-right: 331px;
+}
+
+.menu{
+    display: flex;
+    padding-top: 56px;
+    gap: 43px;
+}
+
+.search{
+    height: 24px;
+    padding-right: 35px;
+}
+
+.profile{
+    height: 24px;
+}
+
+.img{
+    padding-top: 62px;
+    padding-left: 43px;
+}
+
+main{
+    height: 506px;
+    display: grid;
+    padding-left: 120px;
+    padding-top: 60px;
+    grid-template-areas:
+        "textos pizza";
+}
+
+.container-esquerdo{
+    grid-area: textos;
+}
+
+.titulo{
+    font-size: 30px;
+    text-shadow: rgba(0, 0, 0, 0.5) 4px 4px;
+}
+
+.subtitle{
+    font-size: 56px;
+}
+
+.subtitulo-vermelho{
+   color: #D22D2D;
+}
+
+.info-text{
+    font-family: 'Poppins', sans-serif;
+    width: 400px;
+    padding-top: 19px;
+}
+
+.container-direito{
+    grid-area: pizza;
+}
+
+.pizza{
+    height: 400px;
+}
+
+.action{
+    place-self: end;
+    background-color: #D22D2D;
+    width: 400px;
+    height: 100px;
+    color: #fff;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border
+}
+
+footer{
+    display: grid;
+    background-color: #D22D2D;
+    font-family: 'Poppins', sans-serif;
+    height: 90px;
+    place-items: center;
+    color: white;
+}
