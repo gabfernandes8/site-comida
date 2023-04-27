@@ -26,6 +26,26 @@ header{
     gap: 43px;
 }
 
+.home:hover{
+    cursor: pointer;
+    text-decoration: underline #D22D2D;
+}
+
+.menu-text:hover{
+    cursor: pointer;
+    text-decoration: underline #D22D2D;
+}
+
+.about:hover{
+    cursor: pointer;
+    text-decoration: underline #D22D2D;
+}
+
+.contact:hover{
+    cursor: pointer;
+    text-decoration: underline #D22D2D;
+}
+
 .search{
     height: 24px;
     padding-right: 35px;
@@ -33,11 +53,24 @@ header{
 
 .profile{
     height: 24px;
+    /* padding-right: 118px; */
 }
 
 .img{
     padding-top: 62px;
     padding-left: 43px;
+}
+
+.search:hover{
+    cursor: pointer;
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+.profile:hover{
+    cursor: pointer;
+    transform: translateY(0%);
+    opacity: 1;
 }
 
 main{
@@ -77,21 +110,49 @@ main{
 }
 
 .pizza{
-    height: 400px;
+    height: 550px;
+    padding-bottom: 200px;
+}
+
+.botoes{
+    display: grid;
+    padding-top: 59px;
+    gap: 50px;
+    grid-template-areas:
+        "ver-mais play";
+}
+
+.ver-mais{
+    grid-area: ver-mais;
+    font-family: 'Poppins', sans-serif;
 }
 
 .action{
     place-self: end;
     background-color: #D22D2D;
-    width: 400px;
-    height: 100px;
+    width: 213px;
+    height: 54px;
     color: #fff;
-    font-size: 48px;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    border
+    border-radius: 10px 10px 10px 10px;
+}
+
+.play{
+    grid-area: play;
+
+
+}
+
+.action1{
+    padding-left: 356px;
+    background-color: #D22D2D;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
 }
 
 footer{
