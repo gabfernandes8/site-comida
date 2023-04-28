@@ -53,7 +53,6 @@ header{
 
 .profile{
     height: 24px;
-    /* padding-right: 118px; */
 }
 
 .img{
@@ -117,18 +116,16 @@ main{
 .botoes{
     display: grid;
     padding-top: 59px;
-    gap: 50px;
     grid-template-areas:
         "ver-mais play";
 }
 
 .ver-mais{
     grid-area: ver-mais;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif
 }
 
 .action{
-    place-self: end;
     background-color: #D22D2D;
     width: 213px;
     height: 54px;
@@ -141,18 +138,21 @@ main{
     border-radius: 10px 10px 10px 10px;
 }
 
-.play{
+#play{
     grid-area: play;
-
-
 }
 
 .action1{
-    padding-left: 356px;
-    background-color: #D22D2D;
-    width: 80px;
-    height: 80px;
+    background: #D22D2D;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgba(210, 45, 45, 0.54);
     border-radius: 50%;
+    width: 50%;
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
 }
 
 footer{
