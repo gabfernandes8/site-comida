@@ -109,19 +109,19 @@ main{
 }
 
 .pizza{
-    height: 550px;
+    height: 500px;
     padding-bottom: 200px;
 }
 
 .botoes{
     display: grid;
-    padding-top: 59px;
     grid-template-areas:
         "ver-mais play";
 }
 
 .ver-mais{
     grid-area: ver-mais;
+    padding-top: 59px;
     font-family: 'Poppins', sans-serif
 }
 
@@ -139,27 +139,31 @@ main{
 }
 
 #play{
+    padding-top: 46px;
     grid-area: play;
 }
 
 .action1{
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 356px;
+    top: 495px;
+    border-radius: 100%;
     background: #D22D2D;
-    border-style: solid;
-    border-width: 3px;
-    border-color: rgba(210, 45, 45, 0.54);
-    border-radius: 50%;
-    width: 50%;
-    height: 200px;
-    text-align: center;
-    padding: 20px;
-    margin: auto;
+    border: 8px solid #fa8f8f9d;
 }
+
+/* .pepperoni1{
+    width: 150px;
+    height: 111px;
+} */
 
 footer{
     display: grid;
     background-color: #D22D2D;
     font-family: 'Poppins', sans-serif;
-    height: 90px;
+    height: 99px;
     place-items: center;
     color: white;
 }
