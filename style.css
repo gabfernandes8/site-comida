@@ -7,7 +7,7 @@
 body{
     display: grid;
     font-family: 'Anton', sans-serif;
-    height: 100vh;
+    height: 20vh;
     grid-template-rows: 125px 1fr 99px;
 }
 
@@ -73,7 +73,7 @@ header{
 main{
     display: grid;
     padding-left: 120px;
-    padding-top: 9em;
+    padding-top: 57px;
     grid-template-areas:
         "textos pizza";
 }
@@ -136,7 +136,6 @@ main{
 }
 
 #play{
-    padding-top: em;
     grid-area: play;
 }
 
@@ -145,7 +144,7 @@ main{
     width: 75px;
     height: 75px;
     left: 356px;
-    /* top: 495px; */
+    top: 495px;
     border-radius: 100%;
     background: #D22D2D;
     border: 8px solid #fa8f8f9d;
