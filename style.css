@@ -5,7 +5,10 @@
 }
 
 body{
+    display: grid;
     font-family: 'Anton', sans-serif;
+    height: 100vh;
+    grid-template-rows: 125px 1fr 99px;
 }
 
 header{
@@ -23,7 +26,7 @@ header{
 .menu{
     display: flex;
     padding-top: 56px;
-    gap: 43px;
+    gap: 2em;
 }
 
 .home:hover{
@@ -56,27 +59,21 @@ header{
 }
 
 .img{
+    position: relative;
     padding-top: 62px;
     padding-left: 43px;
 }
 
-.search:hover{
+.img:hover{
     cursor: pointer;
-    transform: translateY(0%);
-    opacity: 1;
-}
-
-.profile:hover{
-    cursor: pointer;
-    transform: translateY(0%);
-    opacity: 1;
+    transform: scale(1.3);
+    transition-duration: .3s;
 }
 
 main{
-    height: 506px;
     display: grid;
     padding-left: 120px;
-    padding-top: 60px;
+    padding-top: 9em;
     grid-template-areas:
         "textos pizza";
 }
@@ -139,7 +136,7 @@ main{
 }
 
 #play{
-    padding-top: 46px;
+    padding-top: em;
     grid-area: play;
 }
 
@@ -148,7 +145,7 @@ main{
     width: 75px;
     height: 75px;
     left: 356px;
-    top: 495px;
+    /* top: 495px; */
     border-radius: 100%;
     background: #D22D2D;
     border: 8px solid #fa8f8f9d;
