@@ -20,7 +20,7 @@ header{
 
 .logo{
     padding-top: 44px;
-    padding-right: 331px;
+    padding-right: 315px;
 }
 
 .menu{
@@ -64,7 +64,13 @@ header{
     padding-left: 43px;
 }
 
-.img:hover{
+.img > .search:hover{
+    cursor: pointer;
+    transform: scale(1.3);
+    transition-duration: .3s;
+}
+
+.img > .profile:hover{
     cursor: pointer;
     transform: scale(1.3);
     transition-duration: .3s;
@@ -118,7 +124,7 @@ main{
 
 .ver-mais{
     grid-area: ver-mais;
-    padding-top: 45px;
+    padding-top: 27px;
     font-family: 'Poppins', sans-serif
 }
 
@@ -127,13 +133,12 @@ main{
     width: 213px;
     height: 45px;
     color: #fff;
-    font-size: 20px;
+    font-size: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
     border-radius: 10px 10px 10px 10px;
-    padding-top: ;
 }
 
 #play{
@@ -145,7 +150,7 @@ main{
     width: 65px;
     height: 65px;
     left: 356px;
-    top: 480px;
+    top: 462px;
     border-radius: 100%;
     background: #D22D2D;
     border: 8px solid #fa8f8f9d;
