@@ -79,7 +79,7 @@ header{
 main{
     display: grid;
     padding-left: 120px;
-    padding-top: 57px;
+    padding-top: 3.75rem;
     grid-template-areas:
         "textos pizza";
 }
@@ -107,13 +107,11 @@ main{
     padding-top: 19px;
 }
 
-.container-direito{
-    grid-area: pizza;
-}
-
 .pizza{
-    height: 500px;
-    padding-bottom: 200px;
+    position: absolute;
+    height: 28rem;
+    right: 10%;
+    bottom: 20%;
 }
 
 .botoes{
@@ -150,16 +148,40 @@ main{
     width: 65px;
     height: 65px;
     left: 356px;
-    top: 462px;
+    top: 29.0625em;
     border-radius: 100%;
     background: #D22D2D;
     border: 8px solid #fa8f8f9d;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
 }
 
-/* .pepperoni1{
+.pepperoni1{
+    position: absolute;
+    bottom: 40px;
+    left: 220px;
     width: 150px;
     height: 111px;
-} */
+}
+
+.pepperoni2{
+    position: absolute;
+    top: 78%;
+    right: -50px;
+    height: 111px;
+    width: 150px;
+}
+
+.pepperoni3{
+    position: absolute;
+    right: -5%;
+    top: 50px;
+    height: 111px;
+    width: 150px;
+}
+
 
 footer{
     display: grid;
