@@ -76,10 +76,14 @@ header{
     transition-duration: .3s;
 }
 
+.navbar{
+    display: none;
+}
+
 main{
     display: grid;
     padding-left: 120px;
-    padding-top: 3.75rem;
+    padding-top: 1.5rem;
     grid-template-areas:
         "textos pizza";
 }
@@ -109,7 +113,7 @@ main{
 
 .pizza{
     position: absolute;
-    height: 28rem;
+    height: 25rem;
     right: 10%;
     bottom: 20%;
 }
@@ -148,7 +152,7 @@ main{
     width: 65px;
     height: 65px;
     left: 356px;
-    top: 29.0625em;
+    top: 27em;
     border-radius: 100%;
     background: #D22D2D;
     border: 8px solid #fa8f8f9d;
@@ -168,7 +172,7 @@ main{
 
 .pepperoni2{
     position: absolute;
-    top: 78%;
+    top: 76%;
     right: -50px;
     height: 111px;
     width: 150px;
@@ -176,7 +180,7 @@ main{
 
 .pepperoni3{
     position: absolute;
-    right: -5%;
+    right: -6%;
     top: 50px;
     height: 111px;
     width: 150px;
@@ -189,4 +193,338 @@ footer{
     font-family: 'Poppins', sans-serif;
     place-items: center;
     color: white;
+}
+
+@media (max-width: 1024px){
+
+    body{
+        display: grid;
+        font-family: 'Anton', sans-serif;
+        height: 100vh;
+        grid-template-rows: 85px 1fr 50px;
+    }
+
+    header{
+        display: grid;
+        padding-left: 45px;
+        padding-right: 90px;
+        grid-template-columns: 3fr 1fr;
+    }
+
+    .logo{
+        height: 85px;
+        padding-top: 25px;
+        width: auto;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .search{
+        display: none;
+    }
+
+    .img{
+        position: relative;
+        display: grid;
+        grid-template-areas:
+            "barras perfil";
+        padding-top: 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .profile{
+        grid-area: perfil;
+        height: 30px;
+        place-self: center;
+    }
+
+    .navbar{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .barra{
+        background-color: black;
+        width: 44px;
+        height: 3px;
+        border-radius: 15px;
+    }
+
+    main{
+        display: flex;
+        padding-left: 45px;
+        padding-top: 3rem;
+    }
+
+    .titulo{
+        font-size: 25px;
+        text-shadow: rgba(0, 0, 0, 0.5) 4px 4px;
+    }
+    
+    .subtitle{
+        font-size: 47px;
+    }
+    
+    .subtitulo-vermelho{
+       color: #D22D2D;
+    }
+    
+    .info-text{
+        font-family: 'Poppins', sans-serif;
+        width: 400px;
+        padding-top: 19px;
+        font-size: 20px;
+    }
+    
+    .pizza{
+        position: absolute;
+        height: 25rem;
+        right: 24%;
+        bottom: 10%;
+    }
+
+    .ver-mais{
+        grid-area: ver-mais;
+        padding-top: 40px;
+        font-family: 'Poppins', sans-serif
+    }
+    
+    .action{
+        background-color: #D22D2D;
+        width: 220px;
+        height: 60px;
+        color: #fff;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        border-radius: 10px 10px 10px 10px;
+    }
+    
+    #play{
+        grid-area: play;
+    }
+    
+    .action1{
+        position: absolute;
+        width: 92px;
+        height: 92px;
+        left: 290px;
+        top: 27.6em;
+        border-radius: 100%;
+        background: #D22D2D;
+        border: 10px solid #fa8f8f9d;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding-left: 5px;
+    }
+
+    .pepperoni1{
+        position: absolute;
+        bottom: -4px;
+        left: 20px;
+        width: 210px;
+        height: 170px;
+    }
+    
+    .pepperoni2{
+        position: absolute;
+        top: 82.8%;
+        right: -67px;
+        height: 170px;
+        width: 210px;
+    }
+    
+    .pepperoni3{
+        position: absolute;
+        right: -14%;
+        top: 100px;
+        height: 170px;
+        width: 210px;
+    }
+
+    footer{
+        display: grid;
+        background-color: #D22D2D;
+        font-family: 'Poppins', sans-serif;
+        place-items: center;
+        color: white;
+    }
+}
+
+@media (max-width: 568px){
+
+    body{
+        display: grid;
+        font-family: 'Anton', sans-serif;
+        height: 100vh;
+        grid-template-rows: 85px 1fr 50px;
+    }
+
+    header{
+        display: grid;
+        padding-left: 45px;
+        padding-right: 90px;
+        grid-template-columns: 3fr 1fr;
+    }
+
+    .logo{
+        height: 85px;
+        padding-top: 25px;
+        width: auto;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .search{
+        display: none;
+    }
+
+    .img{
+        position: relative;
+        display: grid;
+        grid-template-areas:
+            "barras perfil";
+        padding-top: 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .profile{
+        grid-area: perfil;
+        height: 30px;
+        place-self: center;
+    }
+
+    .navbar{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .barra{
+        background-color: black;
+        width: 44px;
+        height: 3px;
+        border-radius: 15px;
+    }
+
+    main{
+        display: grid;
+        padding-left: 25px;
+        padding-top: 3rem;
+        /* justify-content: center; */
+    }
+
+    .titulo{
+        text-align: center;
+        font-size: 15px;
+        text-shadow: rgba(0, 0, 0, 0.5) 4px 4px;
+    }
+    
+    .subtitle{
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .subtitulo-vermelho{
+       color: #D22D2D;
+    }
+    
+    .info-text{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        width: 300px;
+        padding-top: 19px;
+        font-size: 14px;
+    }
+    
+    .pizza{
+        position: absolute;
+        height: 12rem;
+        right: 24%;
+        bottom: 10%;
+    }
+
+    .ver-mais{
+        grid-area: ver-mais;
+        padding-top: 25px;
+        font-family: 'Poppins', sans-serif
+    }
+    
+    .action{
+        background-color: #D22D2D;
+        width: 150px;
+        height: 38px;
+        color: #fff;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        border-radius: 10px 10px 10px 10px;
+    }
+    
+    #play{
+        grid-area: play;
+    }
+    
+    .action1{
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        left: 220px;
+        top: 21.6em;
+        border-radius: 100%;
+        background: #D22D2D;
+        border: 8px solid #fa8f8f9d;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding-left: 5px;
+    }
+
+    .pepperoni1{
+        position: absolute;
+        bottom: 3.6%;
+        left: 18px;
+        width: 120px;
+        height: 80px;
+    }
+    
+    .pepperoni2{
+        position: absolute;
+        top: 83.6%;
+        right: -38px;
+        height: 80px;
+        width: 120px;
+    }
+    
+    .pepperoni3{
+        position: absolute;
+        right: -16%;
+        top: 100px;
+        height: 80px;
+        width: 120px;
+    }
+
+    footer{
+        display: grid;
+        background-color: #D22D2D;
+        font-family: 'Poppins', sans-serif;
+        place-items: center;
+        color: white;
+    }
 }
