@@ -2,19 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 body{
     display: grid;
     font-family: 'Anton', sans-serif;
-    height: 20vh;
-    grid-template-rows: 125px 1fr 99px;
+    height: 100vh;
+    grid-template-rows: 125px 1fr 75px;
 }
 
 header{
     display: flex;
-    height: 125px;
-    padding-left: 133px;
+    padding-left: 115px;
     padding-right: 118px;
 }
 
@@ -26,7 +26,7 @@ header{
 .menu{
     display: flex;
     padding-top: 56px;
-    gap: 2em;
+    gap: 35px;
 }
 
 .home:hover{
@@ -118,14 +118,14 @@ main{
 
 .ver-mais{
     grid-area: ver-mais;
-    padding-top: 59px;
+    padding-top: 45px;
     font-family: 'Poppins', sans-serif
 }
 
 .action{
     background-color: #D22D2D;
     width: 213px;
-    height: 54px;
+    height: 45px;
     color: #fff;
     font-size: 20px;
     display: flex;
@@ -133,6 +133,7 @@ main{
     align-items: center;
     text-decoration: none;
     border-radius: 10px 10px 10px 10px;
+    padding-top: ;
 }
 
 #play{
@@ -141,10 +142,10 @@ main{
 
 .action1{
     position: absolute;
-    width: 75px;
-    height: 75px;
+    width: 65px;
+    height: 65px;
     left: 356px;
-    top: 495px;
+    top: 480px;
     border-radius: 100%;
     background: #D22D2D;
     border: 8px solid #fa8f8f9d;
@@ -159,7 +160,6 @@ footer{
     display: grid;
     background-color: #D22D2D;
     font-family: 'Poppins', sans-serif;
-    height: 99px;
     place-items: center;
     color: white;
 }
