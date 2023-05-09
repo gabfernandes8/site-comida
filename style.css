@@ -172,7 +172,7 @@ main{
 
 .pepperoni2{
     position: absolute;
-    top: 76%;
+    top: 78.4%;
     right: -50px;
     height: 111px;
     width: 150px;
@@ -447,7 +447,7 @@ footer{
         text-align: center;
         font-family: 'Poppins', sans-serif;
         width: 300px;
-        padding-top: 19px;
+        padding-top: 10px;
         font-size: 14px;
     }
     
@@ -455,7 +455,7 @@ footer{
         position: absolute;
         height: 12rem;
         right: 24%;
-        bottom: 10%;
+        bottom: 13%;
     }
 
     .ver-mais{
@@ -466,7 +466,7 @@ footer{
     
     .action{
         background-color: #D22D2D;
-        width: 150px;
+        width: 200px;
         height: 38px;
         color: #fff;
         font-size: 16px;
@@ -475,6 +475,7 @@ footer{
         align-items: center;
         text-decoration: none;
         border-radius: 10px 10px 10px 10px;
+        left: 220px ;
     }
     
     #play{
@@ -485,8 +486,8 @@ footer{
         position: absolute;
         width: 60px;
         height: 60px;
-        left: 220px;
-        top: 21.6em;
+        left: 255px;
+        top: 19.35em;
         border-radius: 100%;
         background: #D22D2D;
         border: 8px solid #fa8f8f9d;
