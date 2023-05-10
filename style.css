@@ -172,7 +172,7 @@ main{
 
 .pepperoni2{
     position: absolute;
-    top: 78.4%;
+    bottom: 47px;
     right: -50px;
     height: 111px;
     width: 150px;
@@ -284,9 +284,9 @@ footer{
     
     .pizza{
         position: absolute;
-        height: 25rem;
+        height: 23rem;
         right: 24%;
-        bottom: 10%;
+        bottom: 14%;
     }
 
     .ver-mais{
@@ -328,7 +328,6 @@ footer{
     }
 
     .pepperoni1{
-        position: absolute;
         bottom: -4px;
         left: 20px;
         width: 210px;
@@ -336,7 +335,6 @@ footer{
     }
     
     .pepperoni2{
-        position: absolute;
         top: 82.8%;
         right: -67px;
         height: 170px;
@@ -344,7 +342,6 @@ footer{
     }
     
     .pepperoni3{
-        position: absolute;
         right: -14%;
         top: 100px;
         height: 170px;
@@ -366,20 +363,30 @@ footer{
         display: grid;
         font-family: 'Anton', sans-serif;
         height: 100vh;
-        grid-template-rows: 85px 1fr 50px;
+        grid-template-rows: 75px 1fr 50px;
     }
 
     header{
         display: grid;
-        padding-left: 45px;
-        padding-right: 90px;
-        grid-template-columns: 3fr 1fr;
+        padding-left: 15px;
+        padding-right: 15px;
+        grid-template-columns: 1fr 1fr;
     }
 
     .logo{
-        height: 85px;
-        padding-top: 25px;
-        width: auto;
+        width: 126px;
+        padding-top: 0px;
+        padding-right: 0px;
+    }
+
+    .logo-desktop{
+        display: none;
+    }
+
+    .logo-mobile{
+        position: absolute;
+        top: -20px;
+        height: 150px;
     }
 
     .menu{
@@ -403,7 +410,7 @@ footer{
 
     .profile{
         grid-area: perfil;
-        height: 30px;
+        height: 25px;
         place-self: center;
     }
 
@@ -411,21 +418,21 @@ footer{
         display: grid;
         align-items: center;
         justify-content: center;
-        gap: 10px;
+        gap: 6px;
     }
 
     .barra{
         background-color: black;
-        width: 44px;
+        width: 30px;
         height: 3px;
         border-radius: 15px;
     }
 
     main{
         display: grid;
-        padding-left: 25px;
-        padding-top: 3rem;
-        /* justify-content: center; */
+        padding-left: 8px;
+        padding-top: 1.5rem;
+        justify-content: center;
     }
 
     .titulo{
@@ -447,20 +454,20 @@ footer{
         text-align: center;
         font-family: 'Poppins', sans-serif;
         width: 300px;
-        padding-top: 10px;
+        padding-top: 13px;
         font-size: 14px;
     }
     
     .pizza{
         position: absolute;
-        height: 12rem;
+        height: 13rem;
         right: 24%;
-        bottom: 13%;
+        bottom: 15%;
     }
 
     .ver-mais{
         grid-area: ver-mais;
-        padding-top: 25px;
+        padding-top: 27px;
         font-family: 'Poppins', sans-serif
     }
     
@@ -486,8 +493,8 @@ footer{
         position: absolute;
         width: 60px;
         height: 60px;
-        left: 255px;
-        top: 19.35em;
+        left: 260px;
+        top: 17.5em;
         border-radius: 100%;
         background: #D22D2D;
         border: 8px solid #fa8f8f9d;
@@ -498,7 +505,6 @@ footer{
     }
 
     .pepperoni1{
-        position: absolute;
         bottom: 3.6%;
         left: 18px;
         width: 120px;
@@ -506,7 +512,6 @@ footer{
     }
     
     .pepperoni2{
-        position: absolute;
         top: 83.6%;
         right: -38px;
         height: 80px;
@@ -515,8 +520,8 @@ footer{
     
     .pepperoni3{
         position: absolute;
-        right: -16%;
-        top: 100px;
+        right: -17%;
+        top: 80px;
         height: 80px;
         width: 120px;
     }
