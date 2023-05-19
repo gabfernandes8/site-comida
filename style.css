@@ -185,7 +185,6 @@ footer{
 
     body{
         display: grid;
-        font-family: 'Anton', sans-serif;
         grid-template-rows: 90px 1fr 50px;
     }
 
